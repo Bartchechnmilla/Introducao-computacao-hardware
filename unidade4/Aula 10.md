@@ -23,7 +23,7 @@ Compreender a evolução das redes de computadores, identificar seus elementos b
 
 ### 2. Elementos da Rede
 
-![Diagrama ilustrado](<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/18031a4c-bc03-4354-b01b-3c434e655f96" />)
+![Diagrama ilustrado](elementos.png)
 
 ### 📋 Tabela: Elementos Fundamentais da Comunicação
 
@@ -35,11 +35,46 @@ Compreender a evolução das redes de computadores, identificar seus elementos b
 | **Protocolo** | Regras que garantem que todos "falem a mesma língua". | TCP/IP, HTTP, Bluetooth, MQTT. | Lógico (Software/Normas) |
 
 ### 3. Classificação de Redes
-- Quadro comparativo ou mapa conceitual com exemplos reais:
-  - **PAN** – Bluetooth entre celular e fone de ouvido.
-  - **LAN** – Rede doméstica ou de laboratório.
-  - **MAN** – Rede de uma universidade ou prefeitura.
-  - **WAN** – Internet.
+# 🗺️ Classificação e Abrangência de Redes
+
+A classificação das redes baseia-se na distância geográfica que a infraestrutura cobre, desde o uso pessoal até ao nível global.
+
+---
+
+## 📊 Quadro Comparativo: Tipos de Redes
+
+| Sigla | Nome Completo | Abrangência Geográfica | Exemplo Real |
+| :--- | :--- | :--- | :--- |
+| **PAN** | *Personal Area Network* | **Pessoal** (até 10m) | Ligação **Bluetooth** entre telemóvel e fone de ouvido. |
+| **LAN** | *Local Area Network* | **Local** (Edifício/Sala) | Rede Wi-Fi **doméstica** ou computadores de um **laboratório**. |
+| **MAN** | *Metropolitan Area Network* | **Metropolitana** (Cidade) | Rede que liga vários polos de uma **Universidade** ou **Prefeitura**. |
+| **WAN** | *Wide Area Network* | **Mundial** (Países) | A própria **Internet** conectando continentes. |
+
+---
+
+## 📍 Mapa Conceitual
+
+Este mapa ilustra a hierarquia das redes (da menor para a maior). Se o teu editor de Markdown suportar **Mermaid**, verás um diagrama visual abaixo:
+
+```mermaid
+graph TD
+    A[Redes de Computadores] --> B{Abrangência}
+    
+    B --> PAN[PAN: Pessoal]
+    B --> LAN[LAN: Local]
+    B --> MAN[MAN: Metropolitana]
+    B --> WAN[WAN: Mundial]
+    
+    PAN --- P1[Ex: Bluetooth Celular + Fone]
+    LAN --- L1[Ex: Rede de Laboratório / Wi-Fi Casa]
+    MAN --- M1[Ex: Rede Campus Universitário / Prefeitura]
+    WAN --- W1[Ex: Internet / Cabos Submarinos]
+
+    style PAN fill:#f9f,stroke:#333
+    style LAN fill:#bbf,stroke:#333
+    style MAN fill:#dfd,stroke:#333
+    style WAN fill:#fdb,stroke:#333
+```
 
 ## Organização dos Arquivos
 - Criar uma pasta com o nome do grupo (ex.: `Grupo1_Windows`, `Grupo2_Linux`).
