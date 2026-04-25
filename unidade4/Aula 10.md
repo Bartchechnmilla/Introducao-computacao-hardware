@@ -7,15 +7,32 @@ Compreender a evolução das redes de computadores, identificar seus elementos b
 
 ### 1. Linha do Tempo
 
+# ⏳ Evolução das Redes de Computadores
 
+## Marcos Históricos
+
+| Período | Marco | Descrição | Tecnologia Chave |
+| :--- | :--- | :--- | :--- |
+| **1950 - 1960** | 🖥️ **Mainframes** | Sistemas de processamento centralizado onde terminais remotos se conectavam a um único computador de grande porte. | Terminais "Burros" |
+| **1969** | 🌐 **ARPANET** | Primeira rede baseada em comutação de pacotes, criada para garantir comunicação descentralizada e resiliente. | Comutação de Pacotes |
+| **1983** | 📑 **TCP/IP** | Adoção oficial dos protocolos TCP/IP, permitindo que diferentes redes "falassem" a mesma língua. O nascimento da Internet. | Pilha de Protocolos |
+| **1990s** | 🌍 **Internet Comercial** | Criação da World Wide Web (WWW) e abertura da rede para o público e empresas através de navegadores. | HTTP e HTML |
+| **2000 - Hoje** | 📱 **Redes Móveis** | Evolução da banda larga móvel (3G, 4G, 5G), tornando a conexão onipresente em smartphones e dispositivos IoT. | LTE / 5G / Wi-Fi |
+
+---
 
 ### 2. Elementos da Rede
-- Esquema ilustrando os quatro elementos fundamentais:
-  - **Emissor**
-  - **Receptor**
-  - **Meio de Transmissão**
-  - **Protocolo**
-- Exemplos práticos com dispositivos reais.
+
+![Diagrama ilustrado](<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/18031a4c-bc03-4354-b01b-3c434e655f96" />)
+
+### 📋 Tabela: Elementos Fundamentais da Comunicação
+
+| Elemento | Função Principal | Exemplos Reais | Meio/Formato |
+| :--- | :--- | :--- | :--- |
+| **Emissor** | Origina e codifica a mensagem para envio. | Smartphone, Laptop, Câmera de Segurança. | Digital ou Analógico |
+| **Receptor** | Recebe e decodifica a mensagem para o destino. | Servidor Cloud, Smart TV, Tablet. | Processamento de Sinal |
+| **Meio** | Caminho físico ou sem fio por onde os dados trafegam. | Fibra Óptica, Cabo de Rede (UTP), Ondas de Rádio. | Físico (Guiado/Não guiado) |
+| **Protocolo** | Regras que garantem que todos "falem a mesma língua". | TCP/IP, HTTP, Bluetooth, MQTT. | Lógico (Software/Normas) |
 
 ### 3. Classificação de Redes
 - Quadro comparativo ou mapa conceitual com exemplos reais:
