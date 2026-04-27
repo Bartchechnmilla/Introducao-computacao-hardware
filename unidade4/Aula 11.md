@@ -10,24 +10,7 @@ Entender a organização física e lógica das redes, identificar os principais 
 ![Hub, Switch e Roteador](Dispositivos.png)
 
 ### 3. Meios de Transmissão
-- Classificação dos meios de transmissão em:
-  - **Guiados (com fio):** Par trançado, coaxial, fibra óptica
-  - **Não guiados (sem fio):** Wi-Fi, Bluetooth, satélite, infravermelho
-- Esquema visual mostrando como os meios conectam os dispositivos.
-
-## Organização dos Arquivos
-- Criar uma pasta com o nome da atividade (ex.: `TopologiaEstrela`, `Dispositivos`).
-- Dentro da pasta, incluir:
-  - `topologia.png` ou `topologia.pdf`
-  - `dispositivos.pdf` ou `dispositivos.png`
-  - `meios_transmissao.pdf` ou `meios_transmissao.png`
-  - `README.md` com breve descrição do trabalho.
-
-## Critérios de Avaliação
-- Clareza e organização dos diagramas.
-- Correção conceitual na classificação dos dispositivos e meios.
-- Exemplos práticos bem escolhidos.
-- Referências utilizadas:
+![Meios de transmissão](Transmissao.png)
 
 TANENBAUM, A. S.; FEAMSTER, N.; WETHERALL, D. J. Redes de computadores. 6. ed. São Paulo: Bookman, 2021. E-book. Disponível em: https://plataforma.bvirtual.com.br. Acesso em: 20 abr 2026.
 
