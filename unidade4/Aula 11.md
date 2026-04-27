@@ -4,13 +4,10 @@
 Entender a organização física e lógica das redes, identificar os principais dispositivos e reconhecer os diferentes meios de transmissão.
 
 ### 1. Diagramas de Topologias
-![Diagramas](Diagramas_de_Topologiaas.png)
+![Diagramas](Diagramas_de_Topologias.png)
 
 ### 2. Quadro Comparativo de Dispositivos
-- Comparação entre **Hub, Switch e Roteador**, destacando:
-  - Função principal
-  - Vantagens e limitações
-  - Exemplos de uso real
+![Hub, Switch e Roteador](Dispositivos.png)
 
 ### 3. Meios de Transmissão
 - Classificação dos meios de transmissão em:
